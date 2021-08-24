@@ -419,50 +419,10 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts .count-box {
-  padding: 30px 30px 25px 30px;
-  margin-top: 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #fff;
-}
 
-.facts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #0563bb;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-}
-
-.facts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #011426;
-}
-
-.facts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -790,6 +750,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 100px;
@@ -841,7 +802,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #00aa33;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -849,7 +810,8 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #00aa33;
+  
 }
 
 .services .iconbox-orange i {
@@ -1215,7 +1177,7 @@ section {
   height: 50px;
   width: 330px;
   border-radius: 6px;
-  border: 1px solid #dddfe2;
+  border: 1px solid #dddfe2; 
   margin-bottom: 11px;
 }
 #submit-button{
