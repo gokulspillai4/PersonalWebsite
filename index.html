@@ -449,8 +449,7 @@
                 <h4>Designer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Gokul was very helpful and fast to respond to my inquiry to help with my website issues.  His knowledge was comprehensive.  Even better, his advice helped me enough to solve the problems and he did not make a hesitation for that, very straight up guy! Thank you Gokul.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -463,8 +462,7 @@
                 <h4>Store Owner</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Without doubt one of the most talented programmers out there. I always go back to Gokul when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -477,9 +475,8 @@
                 <h4>Freelancer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  From the start of my project, through to completion, Gokul supported me in every way he could. My experience was personal and friendly. In many ways Gokul understood my website needs better than we did and he complimented our vision perfectly. He's reliable, professional and easy to work with. I can’t recommend him highly enough and we look forward to continuing our working relationship together.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></I
                 </p>
               </div>
             </div><!-- End testimonial item -->
@@ -491,8 +488,7 @@
                 <h4>Entrepreneur</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy. In my experience, no project is too much trouble, and with Gokul you really get a rare entity – someone that can simplify what can be a very complex industry at times.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -555,7 +551,7 @@
                     </tr>
                     <tr>
                       <td scope="row"><input class="input-box glowing-border" type="text" id="tel" name="tel"
-                          placeholder="Mobile">
+                          placeholder="Mobile" maxlength="10">
                         <br>
                         <h8 class="warning-text" id="tel-warning">Enter a 10 digit mobile number</h8>
                       </td>
@@ -629,8 +625,7 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
   <script>
-    var nameflag = false
-    var emailflag = false, telflag = false, msgflag = false;
+    var nameflag = false,emailflag = false, telflag = false, msgflag = false;
 
     $(document).ready(function () {
       $('.navbar-collapse a').click(function () {
@@ -639,8 +634,8 @@
 
       $("#name").on('input', function () {
         this.value = this.value.replace(/[^ a-zA-Z]/, '').replace(/(\..*)\./, '$1');
-        var name = $(this).val()
 
+        var name = $(this).val()
         if (name.length < 3 || name.includes('  ') || name.charAt(0) == ' ') {
           $(this).css({  "box-shadow": "0 0 6px red" })
           $("#name-warning").show()
