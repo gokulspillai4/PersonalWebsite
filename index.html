@@ -407,7 +407,7 @@
                 <i class='bx bx-mobile-alt bx-tada' ></i>
               </div>
               <h4>App development</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Designs and develops aesthetic and optimized mobile applications.</p>
             </div>
           </div>
 
@@ -431,12 +431,11 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Gladson</h3>
+                <h4>Developer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Without doubt one of the most talented programmers out there. I always go back to Gokul when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -445,8 +444,8 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Syam S L</h3>
+                <h4>Developer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Gokul was very helpful and fast to respond to my inquiry to help with my website issues.  His knowledge was comprehensive.  Even better, his advice helped me enough to solve the problems and he did not make a hesitation for that, very straight up guy! Thank you Gokul.
@@ -458,8 +457,8 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Sabarinath</h3>
+                <h4>Designer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Without doubt one of the most talented programmers out there. I always go back to Gokul when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.
@@ -471,12 +470,12 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Anand</h3>
+                <h4>Developer &amp; Freelancer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   From the start of my project, through to completion, Gokul supported me in every way he could. My experience was personal and friendly. In many ways Gokul understood my website needs better than we did and he complimented our vision perfectly. He's reliable, professional and easy to work with. I can’t recommend him highly enough and we look forward to continuing our working relationship together.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></I
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
@@ -484,8 +483,8 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Shahabaz K C</h3>
+                <h4>Developer &amp; Freelancer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy. In my experience, no project is too much trouble, and with Gokul you really get a rare entity – someone that can simplify what can be a very complex industry at times.
@@ -633,7 +632,7 @@
       });
 
       $("#name").on('input', function () {
-        this.value = this.value.replace(/[^ a-zA-Z]/, '').replace(/(\..*)\./, '$1');
+        this.value = this.value.replace(/[^ a-zA-Z]/, '');
 
         var name = $(this).val()
         if (name.length < 3 || name.includes('  ') || name.charAt(0) == ' ') {
@@ -649,7 +648,7 @@
       })
 
       $("#tel").on('input', function () {
-        this.value = this.value.replace(/[^0-9]/, '').replace(/(\..*)\./, '$1');
+        this.value = this.value.replace(/[^0-9]/, '');
         var tel = $(this).val()
         if (tel.length != 10) {
           $("#tel-warning").show()
