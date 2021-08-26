@@ -899,7 +899,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: rgb(77, 77, 77);
   font-size: 26px;
 }
 
